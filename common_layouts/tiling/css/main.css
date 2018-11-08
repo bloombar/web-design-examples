@@ -1,0 +1,36 @@
+header, footer, main {
+	/* these are all block elements by default */
+	border: 2px solid green;
+}
+
+/* a centered, fixed-width container */
+div.container {
+	width: 1004px;
+
+	/* give equal margins on the left and right sides */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.clear {
+	clear: both;
+}
+
+main article {
+	border: 2px solid red;
+	width: 196px;
+	height: 196px;
+	float: left;
+}
+
+header img {
+	float: left;
+}
+
+header h1 {
+	float: left;
+}
+
+
+
+
