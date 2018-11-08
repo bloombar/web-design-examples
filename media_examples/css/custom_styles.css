@@ -1,0 +1,21 @@
+/* custom footer styles for a fixed footer */
+html {
+ /* some advanced stuff to get the footer to be in the right place within the page */
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* margin bottom same as footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}

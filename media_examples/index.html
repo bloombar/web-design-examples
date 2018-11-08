@@ -1,0 +1,99 @@
+<!doctype>
+<html>
+<head>
+	<title>Media on the Web</title>
+	<meta charset="utf-8" />
+
+	<!-- LOAD UP BOOTSTRAP JAVASCRIPT... IF DESIRED -->
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" 
+	src="js/bootstrap.min.js"></script>	
+
+	<!-- LOAD UP BOOTSTRAP CSS... NECESSARY! -->
+	<link rel="stylesheet" 
+	type="text/css" 
+	href="css/bootstrap.min.css" />
+
+	<!-- LOAD UP YOUR OWN CSS... IF DESIRED -->
+	<link rel="stylesheet"
+	type="text/css"
+	href="css/custom_styles.css" />
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Media Examples</h1>
+			<p>
+				This page shows examples of an animated GIF created in Photoshop, a video downloaded from the web, an audio file downloaded from the web, and an audio file created in Audacity.
+			</p>
+			<h2>Keywords</h2>
+			<ul class="bg-info" class="col-xs-6">
+				<li>Photoshop</li>
+				<li>Flash Video Downloader</li>
+				<li>Giphy</li>
+				<li>Compuserve</li>
+				<li>Modems</li>
+				<li>Audacity</li>
+				<li>Copyleft and copyright</li>
+				<li>mp4, ogv video formats</li>
+				<li>mp3, ogg audio formats</li>
+				<li>LAME mp3 encoder</li>
+			</ul>
+		</header>
+
+		<div class="row" >
+			<article class="col-xs-6">
+				<h1>Animated GIF</h1>
+				<figure class="img-thumbnail" >
+					<img class="img-responsive" src="images/ball_on_grassy_knoll.gif" />
+					<figcaption class="text-center">A bouncing ball on a grassy knoll</figcaption>
+				</figure>
+			</article><!-- end of first column -->
+
+			<section class="col-xs-6">
+				<article>
+
+					<h1>Video</h1>
+
+					<video class="img-thumbnail" width="320" height="240" controls="controls">
+						<source src="video/movie.mp4" type="video/mp4" />
+						<source src="video/movie.ogv" type="video/ogg" />
+						<strong>Your browser does not support the video tag.</strong>
+					</video> 
+
+				</article>
+
+				<article>
+
+					<h1>Audio</h1>
+
+					<h2>The Horse</h2>
+					<audio controls="controls">
+						<source src="audio/horse.ogg" type="audio/ogg" />
+						<source src="audio/horse.mp3" type="audio/mpeg" />
+						<strong>Your browser does not support the audio tag.</strong>
+					</audio> 
+
+					<h2>The Professor</h2>
+					<audio controls="controls">
+						<source src="audio/my_audio_recording.ogg" type="audio/ogg" />
+						<strong>Your browser does not support the audio tag.</strong>
+					</audio> 
+				</article>
+
+			</section><!-- end of second column -->
+
+		</div><!-- end of row -->
+
+	</div><!-- end container -->
+
+	<footer class="text-muted footer">
+		&copy;2016.  All rights reserved by whoever created this stuff.
+	</footer>
+
+</body>
+</html>

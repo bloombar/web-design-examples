@@ -1,0 +1,69 @@
+/* the * asterisk indicates a selector that applies to all elements in the page */
+* {
+	font-family: helvetica; /* Go see the movie, Helvetica (avialable on Netflix */	
+	color: #555555; /* you'll find that most "good" (i.e. popular in commercial websites) designers like font colors that are a bit less contrasty than pure black on pure white */
+}
+
+div.container {
+	/* make this page into a "fixed-width" page: */
+	width: 800px;
+
+	/* center the page within the browser window */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	/* 
+	The total width of each img element is:
+		width + 
+		left_margin + 
+		right_margin + 
+		left_padding + 
+		right_padding + 
+		left_border + 
+		right_border
+
+	In this example, all this adds up to 25% for each img element.
+	So there will be four in a row on the web page.
+
+	*/
+
+	width: 156px; /* 15% */
+	margin: 10px; /* 2%; */
+	padding: 10px; /* 2%; */
+	border-width: 2px; /* 1%; */
+	border-style: solid;
+	border-color: #640408;
+}
+
+img:hover {
+	/* these are the styles that will apply when a user hovers over any image */
+	background-color: #f9ce89;
+	width: 176px; 
+	padding: 0px; /* override the basic img styles, and get rid of the padding */
+	cursor: crosshair; /* change the cursor to a crosshair */
+}
+
+/* override the default browser styles for ol tags */
+ol {
+	
+	/* override how the browser usually positions list bullet points or numbers */
+	list-style-position: inside; /* by default the browser considers bullet-points or numbers in lists to be OUTSIDE the list content */
+
+	/* get rid of the default padding that appears to the left of each list item */
+	padding-left: 0px;
+
+	/* change the default numbering to be japanese hirangana characters instead */
+	list-style-type: hiragana;
+}
+
+
+
+
+
+

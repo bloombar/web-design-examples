@@ -1,0 +1,43 @@
+* {
+	font-family: helvetica;
+	font-size: 30px;
+	color: blue;
+	text-decoration: none;
+}
+
+h1 {
+	/* display: block; */
+	background-color: yellow; /* this works! */
+	width: 300px; /* this works! */
+	margin-top: 50px; /* this works! */
+	margin-left: 50px; /* this works! */
+}
+
+h1.no_style {
+	/* set the heading default styles back to normal */
+	background: none;
+	width: 100%;
+	margin: 20px;
+	color: black;
+}
+
+a {
+	/* display: inline; */
+	background-color: pink; /* this works! */
+	width: 300px; /* this does nothing */
+	margin-top: 50px; /* this does nothing */
+	margin-left: 50px; /* this works! */
+}
+
+p {
+	/* display: block; */
+	background-color: red;
+	color: white;
+}
+
+p.override {
+	/* override the display */
+	display: inline;
+}
+
+

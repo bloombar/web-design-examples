@@ -1,0 +1,14 @@
+rect#foo {
+	opacity: 0.5;
+}
+
+circle {
+	position: relative;
+	left: 100px;
+}
+
+nonsense {
+	font-family: helvetica;
+	font-size: 50px;
+	color: green;
+}

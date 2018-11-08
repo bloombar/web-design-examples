@@ -1,0 +1,17 @@
+div.clear {
+	clear: both;
+}
+div#wrapper {
+	width: 1200px;
+	border: 1px solid red;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+section article {
+	width: 380px;
+	height: 400px;
+	background-color: yellow;
+	margin: 10px;
+	float: left;
+}

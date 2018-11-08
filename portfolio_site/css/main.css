@@ -1,0 +1,55 @@
+div.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+	padding: 20px;
+}
+div.clear {
+	clear: both;
+}
+
+header a img.logo {
+	width: 50px;
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	width: 750px;
+	margin: 0;
+	float: left;
+}
+
+ul li {
+	width: 25%;
+	height: 38px;
+	float: left;
+	text-align: center;
+	line-height: 38px;
+}
+
+/* various link states, like you need to do for your homework */
+sa {
+	color: purple;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	color: green;
+}
+
+a:active {
+	color: red;
+}
+
+
+
+
+
+
+
