@@ -1,0 +1,16 @@
+div.container {
+	background-color: red;
+}
+
+header h1 {
+	background-color: yellow;
+	margin-top: 40px;
+}
+
+section.photos {
+	background-color: purple;
+}
+
+main {
+	background-color: fuchsia;
+}
