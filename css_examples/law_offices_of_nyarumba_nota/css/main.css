@@ -1,0 +1,114 @@
+/* GENERAL STYLES */
+
+* {
+	/* set the default page font */
+	font-family: 'helvetica neue', helvetica;
+}
+
+div#container {
+	/* this is a centered, fixed-width page */
+	width: 960px;
+	margin-top: 20px; /* push it down from the top a bit */
+	margin-left: auto; /* center it */
+	margin-right: auto;
+	box-shadow: 0px 0px 20px #f0f0f0; /* a little drop shadow */
+	padding-top: 10px;
+}
+
+div.clear {
+	/* general purpose clearfix style */
+	clear: both;
+}
+
+
+
+/* HEADER STYLES */
+
+header {
+	text-align: center; /* why not? */
+}
+
+header h1 {
+	font-family: 'times new roman'; /* a serif font to make it more "formal" */
+	text-transform: uppercase; /* flip it to uppercase */
+	margin-bottom: 0px; /* esthetically-appealing spacing */
+}
+
+header div#social_media {
+	margin: 10px; /* esthetically-appealing spacing */
+}
+
+header address {
+	font-size: 80%; /* a bit smaller than default */
+}
+
+header address hr {
+	/* style for the horizontal line that appears in the address */
+	color: #f0f0f0;
+	width: 10px;
+}
+
+
+/* TOP NAV STYLES */
+
+header nav ul {
+	background-color: #ac2a1b; /* a matching color grabbed from the Google+ icon */
+	padding: 0px; /* aesthetically-appealing spacing */
+	margin-bottom: 0px; /* aesthetically-appealing spacing */
+}
+header nav ul li {
+	list-style-type: none; /* remove bullet points */
+	text-align: center;
+	float: left; /* so they all stack up horizontally */
+	width: 16.66666666666667%; /* each link is 1/6 of the available width */
+}
+
+header nav ul li:hover {
+	/* change the li background-color when the user mouses over each <li> */
+	background-color: white;
+}
+
+header nav ul li a {
+	color: white; /* link text is white */
+	text-decoration: none; /* remove underline */
+	display: block; /* so the link takes up as much width within the surrounding <li> as possible... thus making it all clickable */
+	height: 40px; /* so the entire box is a link, not just the text */
+	line-height: 40px; /* hack to vertically-center the text */
+}
+header nav ul li:hover a {
+	/* change link text color when a user hovers over the li */
+	color: #ac2a1b; /* a color grabbed from the Google+ icon */
+}
+
+
+/* HERO SPACE STYLES */
+
+div#hero {
+	background-image: url(../images/happy_businessman.jpg); /* the happy guy on his phone */
+	background-size: 100%; /* make it fit the space available */
+	height: 255px; /* match this height with the height of the image */
+	padding-top: 40px; /* push the content inside this area down */
+}
+div#hero article {
+	/* settings to make the content look nice superimposed over the image */
+	text-align: left;
+	margin-left: 50px;
+	padding: 10px;
+	padding-left: 20px;
+	width: 300px;
+	background-color: white;
+}
+div#hero article ul {
+	/* settings to make it look nice */
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: left;
+	list-style-type: none; /* remove bullet points from this list */
+}
+
+
+/* MAIN CONTENT STYLES */
+
+article#main_content, footer {
+	padding: 20px;
+}

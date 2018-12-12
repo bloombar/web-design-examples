@@ -1,0 +1,80 @@
+
+/* override bootstrap's class... IF YOU WANT */
+.btn-primary, .label-primary {
+	background-color: fuchsia;
+	border: 1px solid #962096;
+}
+.btn-primary:hover, .label-primary:hover {
+	background-color: #962096;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border: 0px;
+}
+
+section#left {
+	background-color: pink;
+}
+
+section#right {
+	background-color: fuchsia;
+}
+
+div.my_container {
+	background-color: yellow;
+}
+
+section#cookies {
+	padding-top: 70px;
+}
+
+div.tractors article {
+	padding: 20px;
+}
+
+article.fancy {
+	/* put this on the element around the thing you want to exactly position */
+	position: relative;
+}
+
+article.fancy span {
+	/* put this on the element that is the thing you want to exactly position */
+	/* you have top, right, bottom, and left properties available */
+	position: absolute;
+	right: 30px;
+	top: 30px;
+
+	/* misc. other styles */
+	background-color: white;
+	padding: 2px;
+	padding-right: 3px;
+	padding-top: 3px;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+div.marketing_junk {
+	background-image: url(../images/cookies.jpg);
+	background-size: cover;
+}
+
+div.marketing_junk h1{
+	color: yellow;
+}
+
+div.marketing_junk p {
+	color: fuchsia;
+	font-size: 40px;
+}
+
+header {
+	margin-top: 75px;
+}
+
+
+
+
+
+
+
+
